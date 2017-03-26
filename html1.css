@@ -1,0 +1,129 @@
+body
+{
+    background-color:#F5F5F5;
+    height:100%;
+}
+.container
+{
+    margin-top:30px;
+}
+.wrapper
+{
+    background-color:#25B99A;
+    height:100px;
+    justify-content: center;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow:0px 0px 2px 0px #25B99A;
+    
+}
+
+
+.wrapper-content
+{
+    padding:25px;
+    
+}
+
+.wrapper-content input
+{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    z-index:-2;
+    height:50px;
+    background-color:#89d3c4;
+    font-size: 20px;
+    color:aliceblue;
+    opacity: 0.67;
+    padding-right: 60px;
+}
+
+.wrapper button
+{
+    position:absolute;
+    z-index:2;
+    height:50px;
+    width:50px;
+    border-radius:25px;
+    right:39px;
+    box-shadow: none;
+    outline:none;
+    background-color:white;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    -ms-appearance:none;
+    -o-appearance:none;
+    appearance:none;
+    
+}
+.wrapper button img
+{
+    height:20px;
+}
+
+.wrapper button:hover
+{
+    box-shadow: 0px 0px 2px 1px grey;
+}
+
+button:focus
+{
+    outline:0!important;
+}
+
+
+/* this class will strike the content use this in javascript*/
+.striked
+{
+    text-decoration:line-through;
+    
+}
+/* now the styling is for the list*/
+li
+{
+    list-style: none;
+    margin-bottom: 20px;
+    padding:15px;
+    padding-bottom: 15px;
+    background-color:white;
+    border-radius: 7px;
+}
+
+li p,li div
+{
+    display:inline-block;
+}
+.buttons
+{
+    
+  float:right;  
+}
+
+.done,.delete
+{
+    background-color:white;
+    border-radius: 35px;
+}
+.done img,.delete img
+{
+    height:25px;
+}
+
+.done
+{
+    margin-right: 12px;
+}
+
+hr
+{
+    width:50%;
+    text-align: center;
+    justify-content: center;
+    height:1px;
+    background-color:grey;
+    opacity: 0.45;
+}
+
+
+
+
